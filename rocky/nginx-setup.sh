@@ -18,7 +18,7 @@ command -v git || dnf install git
 
 dnf install nginx php-fpm
 
-git clone https://github.com/b-rito/view-request-header.git $TEMP_DIR
+git clone https://github.com/b-rito/View-Request-Headers.git $TEMP_DIR
 
 move_files
 
