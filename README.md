@@ -12,22 +12,22 @@ Copy one of the respective commands below which fits your Machine OS and preferr
 
 Ubuntu with Nginx:
 ```bash
-/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/nginx-setup.sh)"
+/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/nginx-setup.sh)"
 ```
 
 Ubuntu with Apache:
 ```bash
-/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/apache-setup.sh)"
+/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/apache-setup.sh)"
 ```
 
 Rocky with Nginx: 
 ```bash
-/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/78091c120b1a2723b80b79fcd6ff6735fc917875/nginx-setup.sh)"
+/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/nginx-setup.sh)"
 ```
 
 Rocky with Apache: 
 ```bash
-/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/78091c120b1a2723b80b79fcd6ff6735fc917875/apache-setup.sh)"
+/bin/bash -c "$(curl -fsSL https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/apache-setup.sh)"
 ```
 
 ### Automatic Method (CSE)
@@ -35,7 +35,7 @@ Rocky with Apache:
 Ubuntu with Nginx:
 ```json
 {
-  "fileUris": ["https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/nginx-setup.sh"],
+  "fileUris": ["https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/nginx-setup.sh"],
   "commandToExecute": "./nginx-setup.sh"
 }
 ```
@@ -43,7 +43,7 @@ Ubuntu with Nginx:
 Ubuntu with Apache:
 ```json
 {
-  "fileUris": ["https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/apache-setup.sh"],
+  "fileUris": ["https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/apache-setup.sh"],
   "commandToExecute": "./apache-setup.sh"
 }
 ```
@@ -51,7 +51,7 @@ Ubuntu with Apache:
 Rocky with Nginx:
 ```json
 {
-  "fileUris": ["https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/nginx-setup.sh"],
+  "fileUris": ["https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/nginx-setup.sh"],
   "commandToExecute": "./nginx-setup.sh"
 }
 ```
@@ -59,7 +59,7 @@ Rocky with Nginx:
 Rocky with Apache:
 ```json
 {
-  "fileUris": ["https://gist.github.com/b-rito/042b325232d950686ac6ac008b34ce2a/raw/00b6b62898e7a43d78b5c465be12d5d5978a4b83/apache-setup.sh"],
+  "fileUris": ["https://gist.github.com/b-rito/6e241cbc8a2398b88fac194016ca449d/raw/286f9ebdb146d577ce6919d9761447a155f5a43a/apache-setup.sh"],
   "commandToExecute": "./apache-setup.sh"
 }
 ```
