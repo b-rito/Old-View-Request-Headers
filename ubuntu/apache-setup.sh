@@ -19,7 +19,7 @@ command -v git || apt install git
 
 apt install apache2 libapache2-mod-php
 
-git clone https://github.com/b-rito/view-request-header.git $TEMP_DIR
+git clone https://github.com/b-rito/View-Request-Headers.git $TEMP_DIR
 
 move_files
 
