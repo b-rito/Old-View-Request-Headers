@@ -15,9 +15,9 @@ move_files () {
 
 apt update -y && apt upgrade -y
 
-command -v git || apt install git
+command -v git || apt install git -y
 
-apt install apache2 libapache2-mod-php
+apt install apache2 libapache2-mod-php -y
 
 git clone https://github.com/b-rito/View-Request-Headers.git $TEMP_DIR
 

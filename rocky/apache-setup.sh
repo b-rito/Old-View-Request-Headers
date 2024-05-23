@@ -12,9 +12,9 @@ move_files () {
 
 dnf update -y && dnf upgrade -y
 
-command -v git || dnf install git
+command -v git || dnf install git -y
 
-dnf install httpd php-fpm
+dnf install httpd php-fpm -y 
 
 git clone https://github.com/b-rito/View-Request-Headers.git $TEMP_DIR
 
